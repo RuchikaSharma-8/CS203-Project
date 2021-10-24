@@ -1,0 +1,52 @@
+TEAM MEMBERS: 
+Kushal Agrawal - 2020CSB1096
+Ruchika Sharma - 2020CSB1119
+Muskan - 2020CSB1100
+
+
+PROPOSAL NUMBER 1: CAR PARKING SYSTEM
+
+OBJECTIVE: In this era of high automobile traffic the main issue arises when there is no management in parking of automobiles. Due to this there are high chances of accidents. 
+To reduce the same we are designing this car parking system.
+
+IMPLEMENTATION: We will implement the above car parking system using  a FPGA board. The code for the same will be written in Verilog.
+
+FUNCTIONALITY: We will be using 2 sensors: one to detect the entry and other to detect exit of the vehicle.
+In the entrance of the parking system , there is a sensor which is activated to detect a vehicle coming.
+A password will be requested to open the gate once the entry sensor gets triggered.
+The gate will be opened based on the correctness of the password.
+Each time a new car is detected the door will be locked and each car has to enter the password before entering.
+
+
+
+PROPOSAL NUMBER 2: ALARM CLOCK
+
+OBJECTIVE: The primary function of these clocks is to awaken people from their night's sleep or short naps, they are sometimes used for other reminders as well. Whenever a reminder 
+is required for any purpose, the alarm will always play a crucial role. 
+
+IMPLEMENTATION: We will implement the above Alarm Clock using  a FPGA board. The code for the same will be written in Verilog.
+
+FUNCTIONALITY: This alarm clock will output a real-time clock with a 24-hour format and also provides an alarm feature. This project makes use of FPGA for the hardware implementation 
+of an alarm clock. As soon as the FPGA is switched on, the clock starts. The FPGA and on board clock will generate the timing signals. The alarm time can be set using the switches on 
+the board. Minutes and hours can be incremented and decremented by using the push buttons on the board.
+
+
+
+PROPOSAL NUMBER 3: SEVEN-SEGMENT LED DISPLAY
+
+OBJECTIVE: A Seven-Segment Display is an indicator commonly used by FPGA designers to show information to the user. Code to convert from binary to seven-segment display compatible can 
+be done easily in Verilog. There are many applications that can require the use of one or more seven-segment displays such as:
+1)Alarm Clock
+2)Stop Watch
+3)Button Count Indicator
+4)Voltage Measurements (from Analog to Digital Converter)
+5)Many more!
+IMPLEMENTATION: We will implement the above 4 digit seven-segment display using a FPGA board. The code for the same will be written in Verilog.
+
+FUNCTIONALITY: To control the 4-digit seven-segment display on FPGA Board, a display controller will be designed in verilog for displaying numbers on the 4-digit 7-segment LED display of 
+the FPGA. We can display the numbers from zero to nine on the seven-segment LED display by turning on and off the seven segments of the single seven-segment LED display.
+
+
+
+
+
