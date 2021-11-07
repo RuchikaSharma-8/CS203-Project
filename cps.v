@@ -27,9 +27,9 @@ module car_parking_system (Clk, Rst,  sensorEntrance, sensorExit, passwordEntere
   output reg [6:0] display; //Cathode patterns of the 7-segment LED display
   output reg [3:0] anodeActivate; //Anode signals of the 7-segment LED display
 
-  reg [3:0] pass;
-  reg senEnt;
-  reg senEx;
+  wire [3:0] pass;
+  wire senEnt;
+  wire senEx;
   assign senEnt = sensorEntrance;
   assign senEx = sensorExit;
   assign pass = passwordEntered;
