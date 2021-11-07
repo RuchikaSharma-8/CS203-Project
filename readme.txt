@@ -1,9 +1,7 @@
 TASKS COMPLETED
 i) Module input, outputs and their bit widths have been defined.
 ii) Testbench input, output ports defined.
-
-ON-GOING TASKS
-i) Defining of FPGA input/output pins that will be used. 
+iii) FPGA input/output pins defined. 
 
 TASKS PENDING
 i) Completing verilog code.
