@@ -16,7 +16,7 @@
 
 // endmodule
 
-‘timescale 1ns / 1ps
+`timescale 1ns / 1ps
 
 module car_parking_system (Clk, Rst,  sensorEntrance, sensorExit, passwordEntered, greenLed, redLed, display, anodeActivate);
 
