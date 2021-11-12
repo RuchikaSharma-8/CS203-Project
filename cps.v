@@ -177,8 +177,8 @@ module car_parking_system (Clk, Rst,  sensorEntrance, sensorExit, passwordEntere
     display = 7'b0011000; // P
     end
     endcase
-    assign redLed = red;
-    assign greenLed = green;
+    redLed = red;
+    greenLed = green;
     end
 
 endmodule
