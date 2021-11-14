@@ -69,9 +69,6 @@ set_property IOSTANDARD LVCMOS33 [get_ports {display[5]}]
 set_property PACKAGE_PIN U7 [get_ports {display[6]}]
 set_property IOSTANDARD LVCMOS33 [get_ports {display[6]}]
 
-#set_property PACKAGE_PIN V7 [get_ports dp]
-#set_property IOSTANDARD LVCMOS33 [get_ports dp]
-
 set_property PACKAGE_PIN U2 [get_ports {anodeActivate[0]}]
 set_property IOSTANDARD LVCMOS33 [get_ports {anodeActivate[0]}]
 set_property PACKAGE_PIN U4 [get_ports {anodeActivate[1]}]
