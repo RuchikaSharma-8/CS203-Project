@@ -36,4 +36,5 @@ module car_parking_system_tb();
      #2000;
      rsensorExit =1;
      end
+endmodule
 
